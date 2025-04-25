@@ -1,0 +1,119 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonts and base */
+  body {
+    font-family: 'Space Grotesk', sans-serif;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    color: #1c1c1c;
+    line-height: 1.6;
+  }
+  
+  /* Nav */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 2rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: lowercase;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: 600;
+    text-transform: lowercase;
+  }
+  
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 6rem 2rem;
+    background: linear-gradient(135deg, #f8b500 30%, #ff6f61 100%);
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    background: #1c1c1c;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* Drop */
+  .drop {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .drop h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .drop-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .drop-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* About */
+  .about {
+    padding: 4rem 2rem;
+    background: #fceabb;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #1c1c1c;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
